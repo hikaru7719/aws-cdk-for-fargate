@@ -1,0 +1,10 @@
+{
+  "name": "aws-cdk-for-fargate",
+  "version": "1.0.0",
+  "description": "This is sample repository to build AWS fargate using aws-cdk.",
+  "main": "index.js",
+  "repository": "https://github.com/hikaru7719/aws-cdk-for-fargate.git",
+  "author": "Hikaru Miyahara",
+  "license": "MIT",
+  "private": false
+}
