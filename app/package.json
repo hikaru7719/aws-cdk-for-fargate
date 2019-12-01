@@ -1,0 +1,16 @@
+{
+  "name": "sample",
+  "version": "1.0.0",
+  "description": "sample app for ecs task",
+  "main": "index.js",
+  "author": "Hikaru Miyahara",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "@types/express": "^4.17.2",
+    "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
