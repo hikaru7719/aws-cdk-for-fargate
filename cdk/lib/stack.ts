@@ -39,5 +39,9 @@ export class MyStack extends cdk.Stack {
       port: 3000,
       targets: [ecsService]
     });
+
+    new cdk.CfnOutput(this, "LoadBalancerDNS", {
+      value: lb.loadBalancerDnsName
+    });
   }
 }
